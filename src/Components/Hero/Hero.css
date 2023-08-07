@@ -1,0 +1,139 @@
+.hero-section{
+    background-color: #112540;
+}
+.article-hero{
+    padding: 4em  7.5em 4em 4.5em;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+}
+.section-1{
+   
+    text-align: justify;   
+}
+
+h2{
+    font-size: 2rem;
+    margin: 0;
+}
+.custom{
+    font-weight: 800;
+}
+
+.green{
+    color: #85952B;
+}
+h2, h4{
+    color: #fff;
+}
+h2{
+    font-weight: 400;
+}
+.advert{
+    
+    text-align: justify;
+    color: #8A9BAD;
+}
+.input-section{
+    display: flex;
+    justify-content: space-around;
+    background-color: #F0AD1A;
+    border-radius: 0.4rem;
+    margin-top: 2em;
+}
+input{
+    height: 2.2rem;
+    width: 60%;
+    border:none;
+    font-size: 1rem;
+    align-self: center;
+    border-radius: 0.4rem;
+    text-align: center;
+}
+.start{
+    text-transform: uppercase;
+    word-spacing: 0;
+    font-weight: 700;
+}
+.start:hover{
+    cursor: pointer;
+    font-size: 1.05rem;
+}
+.universal-price{
+    background-color: #85952B;
+    color:#fff;
+    border-radius: 6rem;
+    height: fit-content;
+    padding: 1.5em;
+    font-weight: 900;
+    
+}
+.logo-sample-section{
+    max-width: 420px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 3em;  
+}
+
+.logo-sample-1{
+    margin-top: 0.7em;
+}
+.user-icon-container{
+    background-color: #000002;
+    border-radius: 6rem;
+    height: fit-content;
+    padding: 1.5em;
+    color: #fff;
+    position: absolute;
+    right: 5em;
+    bottom: 12em;
+    
+}
+.chat-icon-container{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    background-color: #2670AD;
+    border-radius: 6rem;
+    height: fit-content;
+    font-weight: 800;
+    padding: 1.5em;
+    color:#fff;
+    word-spacing: 1rem;
+    position:absolute;
+    right: 5em;
+    bottom: 4em;
+}
+@media(max-width:884px){
+    .article-hero{
+       flex-direction: column;
+       padding: 2em  0.8em 2em 0.8em;  
+    }
+    .section-1{
+        max-width:480px;
+         text-align: center; 
+    } 
+    .universal-price{
+        display: none;
+    }
+    .sample{
+        width: 22%;
+    }
+    .logo-sample-1{
+        display: none;
+    }
+    .logo-sample-section{
+        max-width: fit-content;
+        margin-top: 3em;  
+    }
+    .chat-icon-container{
+        right: 2em;
+        bottom: 1.5em;
+        padding: 0.8em;
+    }
+    .user-icon-container{
+        right: 4em;
+        bottom: 5em;
+        padding: 0.8em;
+    }
+}

@@ -1,0 +1,51 @@
+.about-container{
+    font-family: Fira Sans;
+    padding-bottom: 2em;
+    background-color: #FFFFFF;
+}
+.designers{
+    width: 30%;
+}
+
+.designer-section-1{
+    display: flex;
+    gap: 6em;
+    padding: 1em 7em 1em 5.7em;
+    text-align: justify;
+    align-items: center;
+ }
+ .designer-section-writeup{
+    line-height: 1.8rem;
+ }
+ .about-header{
+    font-size: 3rem;
+    
+    text-transform: capitalize;
+    line-height: 2.5rem;
+ }
+ .designer-section-2{
+    display: flex;
+    justify-content: space-evenly;
+ }
+ .designers-2{
+    width: 45%;
+ }
+ .designers-3{
+    width: 35%;
+ }
+@media(max-width:480px){
+    .about-header{
+        font-size: 1.5rem;
+        line-height: 1.5rem;
+        word-spacing: 0.1rem;
+     }
+     .designer-section-1{
+        flex-direction: column-reverse;
+        gap: 0.4rem;
+        padding: 1em;
+        
+     }
+    .designers-1{
+        width: 50%;
+    }
+}

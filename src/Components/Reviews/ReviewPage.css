@@ -1,0 +1,15 @@
+.reviewpage-container{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    padding-bottom: 1em;
+}
+
+.review-content{
+    text-align: justify;
+    max-width: 300px;
+    gap: 1rem;
+}
+.review-image{
+    height: 100%;
+}

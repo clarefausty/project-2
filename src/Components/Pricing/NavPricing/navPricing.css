@@ -1,0 +1,14 @@
+.ul-nav-pricing{
+   justify-content: center;
+   display: flex;
+    gap: 2rem;
+}
+@media(max-width:480px){
+   .ul-nav-pricing{
+      flex-wrap: wrap;
+      justify-content: left;
+      gap: 1rem;
+      font-size: 0.8rem;
+     
+   }
+}

@@ -1,0 +1,27 @@
+.pricing-headline{
+    text-align: justify;
+    padding-left: 5.5em;
+}
+
+
+.pricing-type-container{
+    border: 1px solid #5355D6;
+    border-radius: 0.5rem;
+    
+}
+.price-section{
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    padding-bottom: 2.5em;
+}
+@media(max-width:480px){
+    .pricing-headline{
+        font-size: 1rem;
+        padding-left: 1em;
+    }
+    .price-section{
+        flex-direction: column;
+       padding: 1em;
+    }
+}
