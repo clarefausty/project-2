@@ -5,17 +5,23 @@ import Pricing from '../Pricing/Pricing'
 import About from '../About/About'
 import Review from '../Reviews/Review'
 import Contact from '../Contact/Contact'
+import Footer from "../Footer/Footer"
+import "./Home.css"
+import { Routes, Route } from 'react-router-dom'
+
 
 function Home() {
   return (
-    <div>
-        <Hero/>
-        <Portfolio/>
-        <Pricing/>
-        <About/>
-        <Review/>
-        <Contact/>
-        <footer/>
+    <div className='home'>
+      <Routes>
+      <Route path='/' element={<Hero/>}/>
+      <Route path='/Portfolio' element={<Portfolio/>}/>
+      <Route path='/Pricing' element={<Pricing/>}/>
+      <Route path='/About' element={<About/>}/>
+      <Route path='/Reviews' element={<Review/>}/>
+      <Route path='/Contact' element={<Contact/>}/>
+      <Route path='/Footer' element={<Footer/>}/>
+    </Routes>   
     </div>
   )
 }

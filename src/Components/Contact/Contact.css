@@ -1,0 +1,89 @@
+.contact-container{
+    background-color: #0F2441;
+    display: flex;
+    gap: 2rem;
+    padding: 3em 0 3em 0; 
+    background-image: url("/public/Asset/contact-bg-edited.png");
+    background-size: cover;
+    background-blend-mode: difference;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+    gap: 0.2rem;
+    background-color: #F2F2F2; 
+    text-align: justify;  
+    width: 25%;
+    padding: 1em 2em 2em 2em;
+    border-radius: 0.3rem; 
+}
+.input-contact{
+    margin-bottom: 0.5em;
+    width: 100%;
+    border-radius: 0.3rem; 
+    text-align: justify;
+    padding: 1.4em ;
+    font-size: 1rem;
+}
+textarea{
+    height: 100%;
+    margin-top: 1em;
+    border-radius: 0.3rem; 
+    text-transform: capitalize;
+    padding: 0.5em 3em 4em 0.5em;
+}
+
+.contact-head{
+    color: black;
+    font-weight: 800;
+    text-transform: capitalize;
+    margin-bottom: 0;
+}
+.h2-contact{
+    color: #003566;
+    font-weight: 800;
+    text-transform: capitalize;
+    margin-top: 0;
+    margin-bottom: 0.3em;
+}
+.div-btn{
+    margin-top: 0.8em;
+    background-color: #0F2441;
+    padding: 0.3em 1em 0.3em 1em;
+    border-radius: 0.3rem;
+}
+.submit-contact{
+   background-color: #003566; 
+   width: 100%;
+   border: none;
+   border-radius:0.3rem;
+   padding: 0.8em 2em;
+   text-transform:uppercase;
+   font-weight: 900;
+   font-size: 1rem;
+   color: #F2F2F2;
+   cursor: pointer;
+}
+
+.submit-contact:hover{
+    font-size: 1.1rem;
+    background: #F2F2F2;
+    color: #003566;
+}
+
+@media(max-width:500px){
+    .contact-container{
+        flex-direction: column;
+        padding: 2em 0 2em 0;
+    }
+    .contact-form{
+        width:fit-content; 
+    }
+    .contact-image-container{
+        padding-top: 0;
+    }
+}

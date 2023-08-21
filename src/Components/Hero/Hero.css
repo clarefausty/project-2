@@ -1,6 +1,7 @@
 .hero-section{
     background-color: #112540;
 }
+
 .article-hero{
     padding: 4em  7.5em 4em 4.5em;
     display: flex;
@@ -66,6 +67,7 @@ input{
     height: fit-content;
     padding: 1.5em;
     font-weight: 900;
+    display: none;
     
 }
 .logo-sample-section{
@@ -101,7 +103,7 @@ input{
     color:#fff;
     word-spacing: 1rem;
     position:absolute;
-    right: 5em;
+    right: 4em;
     bottom: 4em;
 }
 @media(max-width:884px){

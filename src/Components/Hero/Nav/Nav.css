@@ -4,6 +4,7 @@
     padding-top: 1.5em;
     align-items: center;
     color: #F4FEFF;
+    position: sticky;
 }
 .logo-section{
     display: flex;
@@ -13,10 +14,23 @@
  .nav-hero-ul {
     display: flex;
     gap: 2rem;
+    
 }
+.link{
+    text-decoration: none;
+    color: #F4FEFF;
+}
+
 ul li{
     list-style: none;
-    
+    font-size: 1.05rem;   
+}
+
+ul li:hover {
+    font-size: 1.1rem;
+}
+ul li:visited{
+    text-decoration: none;
 }
 .communication-section{
     display: flex;
@@ -43,5 +57,8 @@ ul li{
     }
     .nav-hero-ul{
         gap: 0.5rem;
+    }
+    .link{
+        font-size: 0.71rem;
     }
 }

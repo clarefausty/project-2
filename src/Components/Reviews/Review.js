@@ -7,6 +7,7 @@ import "./Review.css"
 function Review() {
   const getReview = reviewData.map(function(review){
     return<ReviewPage
+    key={review.Id}
     {...review}
     />
   })

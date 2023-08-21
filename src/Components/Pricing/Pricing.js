@@ -8,6 +8,7 @@ function Pricing() {
   const pricingSection = data.map(function(segment){
     return <  
     Sections
+    key={segment.id}
     {...segment}
       />
   })
